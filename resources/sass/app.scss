@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import 'test';
+
+@import 'stripeCss';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "./node_modules/tailwindcss/base";
+
+@import "./node_modules/tailwindcss/components";
+
+@import "./node_modules/tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    background: #f4f6f8;
+    font-family: $font-family;
+}
+.container{
+    padding: 0.7rem 10rem;
+}
+a{
+    text-decoration: none;
+    &:hover {
+        
+        text-decoration: none;
+        color: $my-color;
+    }
+}
+.our-color {
+    color: #ff4e02;
+}
+.my-class {
+    @apply text-base ml-8 font-semibold #{!important};
+}
