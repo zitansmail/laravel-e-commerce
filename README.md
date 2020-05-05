@@ -5,7 +5,7 @@ cp .env.example .env
 
 # 2 Add Stripe key and Secret to the file
 
-# 3 Install dependicies 
+# 3 Install dependencies 
 composer install && npm install
 
 # 4 Generate a new key 
