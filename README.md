@@ -1,6 +1,7 @@
 # laravel-e-commerce built with smail & jaouad
 # 1 Setup enviroments
 Coppy .env.example to .env 
+cp .env.example .env 
 
 # 2 Add Stipe key and Secret to the file
 Coppy .env.example to .env 
