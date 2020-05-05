@@ -17,8 +17,10 @@ class CouponController extends Controller
      */
     public function store(Request $request)
     {   
+        //dd($request);
         $coupon = Coupon::couponFind($request->coupon);
         if ($coupon) {
+            session()->put('key', $coupon->value);
             return redirect()->route('checkout.index')->with('success_message','Coupon was applied succesfully');
             
             

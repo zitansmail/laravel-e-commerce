@@ -39,9 +39,9 @@
                 <div class="row">
                     <div class="col-md-6 lg:text-left sm:text-center">
                         <a href="" class="mr-2"><i class="fas fa-envelope-open our-color"></i>
-                        <span class="text-sm ml-2">zitansmil@gmail.com</span></a>
+                        <span class="text-sm text-black ml-2">zitansmil@gmail.com</span></a>
                         <a href="" class="mr-2"><i class="fas fa-phone our-color"></i>
-                        <span class="text-sm ml-2">+47890930482</span></a>
+                        <span class="text-sm text-black ml-2">+47890930482</span></a>
                     </div>
                     <div class="col-md-6 lg:text-right  sm:text-center">
                         <a href="#" class="mr-2 ml-2"><i class="fab fa-facebook fa-sm"></i></a>

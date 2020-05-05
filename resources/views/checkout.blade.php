@@ -124,8 +124,8 @@ CheckOut
                     <div>
                         <h1 class="text-sm mb-2">${{ Cart::subtotal() }}</h1>
                         <h1 class="text-sm mb-2">${{ Cart::tax() }}</h1>
-                        <h1 class="text-sm mb-2">$33</h1>
-                        <h1 class="text-lg font-bold mb-2">${{ Cart::total() }}</h1>
+                        <h1 class="text-sm mb-2">${{ session()->get('key') ? session()->get('key') : 'No coupon applied' }}</h1>
+                        <h1 class="text-lg font-bold mb-2">${{ Cart::total() - session()->get('key')  }}</h1>
                     </div>
                 </div>
 

@@ -37418,7 +37418,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row flex items-center py-8  " }, [
+    return _c("div", { staticClass: "row flex items-center py-8 my-8 " }, [
       _c("div", { staticClass: "col-md-3" }, [
         _c("div", { staticClass: " " }, [
           _c("a", { staticClass: "mb-4", attrs: { href: "" } }, [

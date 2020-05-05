@@ -1,5 +1,5 @@
 <template>
- <div class="row flex items-center py-8  ">
+ <div class="row flex items-center py-8 my-8 ">
          <div class="col-md-3">
              <div class=" ">
               <a href="" class="mb-4">Logo</a>
